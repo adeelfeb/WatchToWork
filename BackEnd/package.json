@@ -1,0 +1,27 @@
+{
+  "name": "fypback",
+  "version": "1.0.0",
+  "description": "A basiuc starter ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adeelfeb/WatchToWork.git"
+  },
+  "keywords": [
+    "node",
+    "fyp",
+    "backend"
+  ],
+  "author": "Adeel Tariq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adeelfeb/WatchToWork/issues"
+  },
+  "homepage": "https://github.com/adeelfeb/WatchToWork#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
