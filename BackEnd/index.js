@@ -1,16 +1,16 @@
-// Import Express
-const express = require('express');
+require('dotenv').config();
 
-// Create an Express application
+const express = require('express');
 const app = express();
 
-// Define a route to respond to GET requests at the root URL
+const port = process.env.PORT || 3000;
+const dbURL = process.env.DATABASE_URL;
+const secretKey = process.env.SECRET_KEY;
+
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send(`App is running on port ${port}, DB URL is ${dbURL}`);
 });
 
-// Start the server and listen on port 3000
-const PORT = process.env.PORT || 4000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });
