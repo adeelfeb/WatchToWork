@@ -76,6 +76,8 @@ Absolutely, let's break down each concept step by step:
   ```json
   "proxy": "http://localhost:5000"
   ```
+BackEndProxies
+![How to add Proxy in React Vite](img/BackEndProxies.png)
 
 **Example Configuration**:
   ```json
