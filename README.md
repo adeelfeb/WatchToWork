@@ -1,5 +1,11 @@
 # WatchToWork
 
-`` Creating this private repo for FYP ``
+### Read in Following order
 
-# `` Read The Readme file inside the specific repo for understanding how things are working  ``
+1. **Backend ReadMe**
+
+2. **Frontend ReadMe**
+
+3. **CORS.md**
+
+4. **ProxyAPICalls.md**
