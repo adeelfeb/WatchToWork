@@ -1,0 +1,55 @@
+# Node.js
+node_modules/
+**/node_modules/
+
+# Logs
+logs/
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+**/.env
+
+# Debug files
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE-specific files
+.vscode/
+.idea/
+**/.vscode/
+**/.idea/
+
+# OS-specific files
+.DS_Store
+**/.DS_Store
+Thumbs.db
+**/Thumbs.db
+
+# Build directories
+/dist/
+/build/
+/coverage/
+**/dist/
+/**/build/
+/**/coverage/
+
+# Optional npm cache directory
+.npm/
+**/.npm/
+
+# StackBlitz specific (if any)
+.stackblitz/
+**/.stackblitz/
+
+# Docker files
+docker-compose.override.yml
+**/docker-compose.override.yml
+
+# Typescript output
+*.tsbuildinfo
