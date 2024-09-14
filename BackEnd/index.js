@@ -14,3 +14,12 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
+
+app.send('/data', ()=>{
+  const tempdata = {
+    id: 1,
+    name: temp,
+    reg: 23
+  }
+  req.send(tempdata)
+})
