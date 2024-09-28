@@ -19,7 +19,7 @@ function App() {
   }
 
   return (
-    <div className='bg-black'>
+    <div className='bg-green'>
       <h1>Getting started again here!</h1>
       <h2>Counter is at: {count}</h2>
       <button onClick={Increment}>
