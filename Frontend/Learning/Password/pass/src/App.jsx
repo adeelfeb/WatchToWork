@@ -23,10 +23,29 @@ function App() {
   return (
     <>
     
-      <div className='bg-black min-h-screen p-9 m-4 rounded-xl'>
-        <div className='rounded-full w-full max-w-md mx-auto shadow-md px-4 my-8 text-orange-600
-        bg-gray-700'>
-          testing
+      <div className='bg-black min-h-screen p-4 m-4 rounded-xl'>
+        <div className='rounded-lg w-full max-w-md mx-auto shadow-md px-4 my-8 text-orange-600
+        bg-gray-700 p-4'>
+            <h1 className='text-white text-center my-3'>Password Generator</h1>
+          <div className='flex shadow rounded-lg overflow-hidden mb-4'>
+            <input type="text" 
+            value={password}
+            className='outline-none w-full py-1 px-3 p2'
+            placeholder='Password' 
+            readOnly/>
+            <button className='outline-none bg-blue-700 text-white px-3 py-1 shrink-0'>Copy</button>
+
+          </div>
+          <div className='flex text-sm gap-x-3'>
+            <div className='flex items-center gap-x-1'>
+              <input type="range" 
+              value={length}
+              className='cursor-ponter'
+              onChange={(e)=>{
+                setLength(e.target.value)
+              }} />
+            </div>
+          </div>
         </div>
       </div>
       {/* <div className='bg-black min-h-screen'>
