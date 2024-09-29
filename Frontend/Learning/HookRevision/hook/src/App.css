@@ -1,0 +1,52 @@
+/* App.css */
+
+/* Full width and full screen height */
+.full-width {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  /* Transition duration equivalent to Tailwind's 'duration-200' */
+  .transition-duration {
+    transition-duration: 200ms;
+  }
+  
+  /* Padding */
+  .padding-10 {
+    padding: 10px;
+  }
+  
+  /* Fixed bottom center positioning with flexbox */
+  .fixed-bottom-center {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    bottom: 3rem;
+    left: 0;
+    right: 0;
+    padding: 0 0.5rem;
+  }
+  
+  /* Container for buttons, styled as a card */
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 1rem 0.5rem;
+    background-color: white;
+    border-radius: 1rem; /* 2xl rounded corners */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Tailwind's shadow-lg */
+  }
+  
+  /* Button styling */
+  .button {
+    border-radius: 9999px; /* Fully rounded (circle shape) */
+    outline: none;
+    padding: 0.75rem 1rem; /* px-4 py-3 equivalent */
+    color: white;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Tailwind's shadow-lg */
+    cursor: pointer;
+  }
+  

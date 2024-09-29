@@ -1,31 +1,29 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Temp from '../Comp/Temp'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  const Increment = () => {
-    if (count !== 20) {
-      setCount(count + 1)
-    }
-  }
-
-  const Decrement = () => {
-    if (count !== 0) {
-      setCount(count - 1)
-    }
-  }
+  const [color, setColor] = useState("orange")
 
   return (
-    <div className='bg-green'>
-      <h1>Getting started again here!</h1>
-      <h2>Counter is at: {count}</h2>
-      <button onClick={Increment}>
-        Increase
-      </button>
-      <button onClick={Decrement}>Decrease</button>
+    <div className="full-width transition-duration padding-10" style={{ backgroundColor: color }}>
+      <div className='fixed-bottom-center'>
+        <div className='button-container'>
+       
+        <button className='button' style={{ backgroundColor: 'blue' }} onClick={() => {
+          setColor('Blue')
+        }}>Blue</button>
+
+        <button className='button' style={{ backgroundColor: 'pink' }} onClick={() => {
+          setColor('Pink')
+        }}>Pink</button>
+
+        <button className='button' style={{ backgroundColor: 'black' }} onClick={() => {
+          setColor('Black')
+        }}>Black</button>
+        </div>
+   
+      </div>
     </div>
   )
 }
