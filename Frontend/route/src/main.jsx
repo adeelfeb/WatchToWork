@@ -10,7 +10,7 @@ import Contact from './Components/Contact/Contact.jsx'
 import User from './Components/User/User.jsx'
 import Github, { githubUserData } from './Components/Header/Github.jsx'
 
-
+// The other method
 // const router = createBrowserRouter([
 //   {
 //     path: '/',
